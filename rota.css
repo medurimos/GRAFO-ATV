@@ -1,0 +1,103 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #fef0cf; /* Fundo claro em tom alaranjado suave */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.menu {
+    text-align: center;
+    background-color: #519271; /* Verde escuro */
+    padding: 50px;
+    border-radius: 15px;
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.3);
+    width: 800px;
+}
+
+.logo {
+    font-size: 50px;
+    color: #ffb339; /* Tom laranja vibrante */
+    margin-bottom: 40px;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+}
+
+.rota-container {
+    text-align: center;
+    padding: 20px;
+    background-color: #e57042; /* Tom alaranjado médio */
+    border-radius: 15px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    color: white;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 10px;
+}
+
+select {
+    width: calc(100% - 40px);
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 2px solid #ffb339;
+    border-radius: 10px;
+    font-size: 16px;
+}
+
+button.menu-button {
+    background-color: #ffb339;
+    color: #333333;
+    padding: 15px;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 18px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    text-transform: uppercase;
+}
+
+button.menu-button:hover {
+    background-color: #cc8a29;
+    transform: scale(1.05);
+}
+
+#resultado {
+    margin-top: 20px;
+}
+
+#resultado h2 {
+    margin-bottom: 10px;
+}
+
+#lista-onibus {
+    list-style-type: none;
+    padding-left: 0;
+    margin-bottom: 20px;
+}
+
+.hidden {
+    display: none;
+}
+
+#mapa-estacoes {
+    display: block;
+    margin: 20px auto;
+    background-color: #519271;
+    border: 2px solid #ffb339;
+    border-radius: 10px;
+    width: 100%;
+    max-width: 800px;
+    height: 400px;
+}
+
+canvas {
+    border: 1px solid #ffb339;
+    border-radius: 10px;
+}

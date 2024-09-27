@@ -1,0 +1,49 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #fef0cf; /* Fundo claro em tom alaranjado suave */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.menu {
+    text-align: center;
+    background-color: #519271; /* Verde escuro, contraste com o fundo */
+    padding: 100px;
+    border-radius: 15px;
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.3);
+    width: 500px;
+}
+
+.logo {
+    font-size: 50px;
+    color: #ffb339; /* Tom laranja vibrante */
+    margin-bottom: 80px;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+}
+
+.menu-buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.menu-button {
+    display: block;
+    width: 100%;
+    padding: 15px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #333333;
+    background-color: #e57042; /* Tom alaranjado médio para os botões */
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
